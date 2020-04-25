@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito Sans',sans-serif;
+    font-size: 10x;
+    background:white;
+}
+
+
+nav ul
+{
+display: flex;
+font-style: bold;
+justify-content: center;
+list-style: none;
+padding: 10px;
+font-weight: 700;
+}
+
+
+nav ul li{
+
+    margin: 0 10px;
+    
+    
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-link{
+    font-size: 1em;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.nav-link:hover{
+    text-decoration-line: underline;
+    text-decoration-color: grey;
+
+}
+
+h1{
+  
+    font-weight: 800;
+    font-size: 3.5em;
+    padding: 20px;
+    
+
+}
+#fd h1
+{
+    text-align: center;
+}
+
+#fd{
+    background: yellow;
+}
+
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    margin: 0px 25px;
+    
+  }
+  
+  .column img {
+    /* margin-top: 12px; */
+    margin: 0px 25px;
+  
+    
+  }
+  .column p{
+    margin: 0px 80px;
+    font-size: 1em;
+color: black;  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/* #fd div article{
+    display: flex;
+  
+   
+}
+#fd article img{
+  
+    height: 450px;
+    width: 250px;
+    padding:10px;
+    margin: 20px;
+}
+
+#fd article div img{
+   
+    width: 300px;
+    height: 80px;
+} */
+
+
+.link-button{
+    
+    text-decoration: none;
+    text-align: center;
+    background:white;
+    cursor: pointer;
+    font-weight: 200px;
+    letter-spacing: 05.px;
+    color:black;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 50px;
+    border-color: black;
+    width: 200px;
+    height: 40px;
+    margin: 50px 700px;
+}
+
+#data{
+    display: flex;
+    background-color: #f8f8ff;   
+    list-style: none;
+    
+} 
+
+#data h4{
+    font-size: 1.5em;
+    color: black;
+    
+
+}
+
+#data div{
+    margin: 20px 0px 20px 100px;
+}
+#data ul li{
+    list-style: none;
+    text-decoration: none;
+    color: grey;
+}
+     
+
+.lang
+{
+ 
+    background-color: ghostwhite;
+}
+
+.lang h4{
+    
+        font-size: 1.5em;
+        color: black;
+        
+}
+
+.lang li h4{
+    margin-left: 200px;
+}
+.lang li{
+    list-style: none;
+    text-decoration: none;
+    color: grey;
+    width: 70px;
+}
+.sl{
+    width: 200px;
+    height: 30px;
+    font-size: 1em;
+    margin: 10px 0px 20px 200px;
+    
+}
+
+#foot{
+    background: black;
+    height: 30px;
+    
+    
+     
+}
+
+#foot div{
+    margin: 10px 60px;
+}
+#foot ul{
+    display: flex;
+    list-style: none;   
+    flex-direction: row;
+   
+}
+
+
+#foot  div ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 10px 60px;
+ 
+   
+}
